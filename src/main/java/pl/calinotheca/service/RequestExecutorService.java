@@ -9,8 +9,8 @@ public class RequestExecutorService {
 
 	// connection settings
 	private final String URL = "jdbc:oracle:thin:@ora4.ii.pw.edu.pl:1521/pdb1.ii.pw.edu.pl";
-	private final String USER = "jkalino1";
-	private final String PASS = "jkalino1";
+	private final String USER = "<username>";
+	private final String PASS = "<password>";
 	private Statement statement = null;
 
 	public int execSqlRequest(String query) {
